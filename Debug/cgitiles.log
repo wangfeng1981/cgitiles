@@ -1,0 +1,39 @@
+﻿生成启动时间为 2020/2/12 21:15:30。
+     1>项目“D:\coding\cgitiles\cgitiles\cgitiles.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\cgitiles.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cgitiles.cpp
+         cgitiles.cpp
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(90): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(91): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(100): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(101): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(102): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(106): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\coding\cgitiles\cgitiles\cgitiles.cpp(134): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\coding\cgitiles\Debug\cgitiles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cgitiles.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\coding\cgitiles\Debug\cgitiles.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\coding\cgitiles\Debug\cgitiles.lib" /MACHINE:X86 Debug\cgitiles.exe.embed.manifest.res
+         "Debug\cgi-lib.obj"
+         Debug\cgitiles.obj
+         "Debug\html-lib.obj"
+         "Debug\list-lib.obj"
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cgitiles.exe.embed.manifest" /manifest Debug\cgitiles.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         cgitiles.vcxproj -> D:\coding\cgitiles\Debug\cgitiles.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\cgitiles.unsuccessfulbuild”。
+         正在对“Debug\cgitiles.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\coding\cgitiles\cgitiles\cgitiles.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.16
