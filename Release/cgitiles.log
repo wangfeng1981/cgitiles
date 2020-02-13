@@ -1,4 +1,4 @@
-﻿生成启动时间为 2020/2/13 22:19:44。
+﻿生成启动时间为 2020/2/13 23:40:28。
      1>项目“D:\coding\cgitiles\cgitiles\cgitiles.vcxproj”在节点 2 上(build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
      1>InitializeBuildStatus:
@@ -7,16 +7,13 @@
          所有输出均为最新。
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cgitiles.cpp
          cgitiles.cpp
-     1>cgitiles.cpp(96): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
      1>cgitiles.cpp(97): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-     1>cgitiles.cpp(106): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>cgitiles.cpp(98): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
      1>cgitiles.cpp(107): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
      1>cgitiles.cpp(108): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-     1>cgitiles.cpp(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
-     1>cgitiles.cpp(127): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
-     1>cgitiles.cpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>cgitiles.cpp(109): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>cgitiles.cpp(113): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>cgitiles.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\xampp\htdocs\sparktile\cgitiles.cgi" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\cgitiles.cgi.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\xampp\htdocs\sparktile\cgitiles.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\xampp\htdocs\sparktile\cgitiles.lib" /MACHINE:X86 "Release\cgi-lib.obj"
@@ -36,4 +33,4 @@
 
 生成成功。
 
-已用时间 00:00:01.15
+已用时间 00:00:01.08
